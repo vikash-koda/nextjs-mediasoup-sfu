@@ -286,14 +286,4 @@ Most hackathon projects are basic CRUD applications wrapped in a nice UI. **Atom
 
 We did not use a managed WebRTC API cheat-code. We built the Selective Forwarding Unit (SFU) from the ground up, managed our own transport capabilities, handled our own signaling logic, and layered an incredibly polished, custom "Iron Forge" CSS theme on top of it. It represents full-stack engineering at its absolute finest.
 
----
 
-## 📸 Screenshots
-
-*(To be added by team prior to submission)*
-
----
-
-## 👥 Team Information
-
-*(Add Team Roster Here)*
