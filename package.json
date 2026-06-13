@@ -1,0 +1,40 @@
+{
+  "name": "atom-quest-finale",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev -H 10.236.160.159\" \"tsx server/socket.ts\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "cloudinary": "^2.10.0",
+    "clsx": "^2.1.1",
+    "concurrently": "^10.0.3",
+    "date-fns": "^4.4.0",
+    "dotenv": "^17.4.2",
+    "lucide-react": "^1.18.0",
+    "mediasoup": "^3.20.5",
+    "mediasoup-client": "^3.20.0",
+    "mongoose": "^9.7.0",
+    "nanoid": "^5.1.11",
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "tailwind-merge": "^3.6.0",
+    "tsx": "^4.22.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
